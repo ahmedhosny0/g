@@ -1,0 +1,32 @@
+.fc
+{
+ width:100px;
+ height:100px;
+ background:red;
+}
+#test /* java script*/
+{
+    color:red;
+}
+#h1
+{
+    direction: rtl;
+    width:100%;
+    background: red;
+    font-size: 22px;
+    color:white;
+    padding:5px;
+    text-shadow: 2px 1px black;
+}
+#parg
+{
+    direction: rtl;
+    font-weight:bold;
+    font-family: inherit;
+    line-height: 2;
+    font-size: 18px;
+    text-align: right;
+    color:#364041;
+    padding: 10px;
+    text-indent: 50px;
+    }

@@ -1,0 +1,601 @@
+body{
+    font-family:sans-serif;
+    font-size: 13px;
+background-image: url(../img/background.png); /* when put it in index add ' '*/
+    background-attachment: fixed;
+    }
+
+.container{
+ 
+ margin-top:20px;
+ width:1045px;
+}
+.vn1 a
+{
+   text-decoration: none;
+}
+.heading
+{ /* padding for text and margin for box and border change only type or color*/
+    /*Be carefully during Arrangement (border type then color)*/
+    /*when two box the sec1045px +10px not from top(it's top is the first bottom)*/
+
+    border-top:solid;
+    border-bottom:solid;
+	border-top-color:#FC6C6C;
+    border-bottom-color:#FC6C6C; 
+    background-image:url(../img/content.png);
+   /* background: #F9F7F7;*/
+}
+.s1
+{/*for the first row*/
+    /*الهوامش من الجهات الاربعه*/
+    text-align: right;
+    padding-top:4px;
+     border-bottom:ridge;
+}
+.s2
+{/*for the third row*/
+    text-align: right;
+    color: #FFFFFF;
+    padding: 5px 0;
+    margin:30px 0px 0px 0px;
+    background: #6D6565
+}
+/* for unordered list in row1* and row 3*/
+.u-1
+{
+    list-style: none;
+}
+/* to r-bottom-width:n10*/
+.l
+{
+    display: inline-block;
+}
+/* for the name programmer*/
+.name{
+    text-align: center;
+    color:red;
+    font-size: 72px;
+}
+.content
+{   border:solid 1px;
+    height: 1650px;
+    border-color:#FFFFFF;
+    background-image:url(../img/content.jpg);
+    /*background: #000000;*/
+}/* font weight for bold*/
+.ch
+{   float:right;
+    color: #7272D3;
+    font-weight: bold;
+    text-shadow:2px 2px black;
+    font-size: 25px;
+    margin-right:30px;
+    margin-bottom: 0px;}
+.rightcol
+{
+ border:ridge 1px;
+ width:620px;
+ margin-right:20px;
+    margin-top:20px;
+    float:right;
+}/* i use border ridge ,1px make height حتي لا يلتصق الحد بالصوره*/
+.vn1
+{
+    width:auto;
+    text-align: left;
+    margin-right: 20px;
+    margin-left:20px;
+    height:240px;
+    border-bottom: ridge 1px;
+}
+/* title of the video*/
+.tvn1 
+{
+    text-align: right;
+    font-weight: bold;
+    color: black; 
+    text-shadow: 2px 2px red; /*make shadow for title*/
+    font-size: 20px;
+ transition: all 0.4s ease; /* disappear slowly*/
+ }
+.tvn1:hover
+{
+ color:#EA1ECB;
+}
+/*image of the video. */
+.ivn1
+{
+    width:280px;
+    height:180px;
+    float:right;
+}
+/* caption of the video. */
+.vtext
+{
+    font-weight: bold;
+    font-size: 15px;
+    text-align: justify;
+    float:left;
+    width:280px;
+    height:180px;
+}
+/* to put text beside the photo of the video.and text justify */
+.clear_fix::after
+{
+    content: "";
+    clear: both;
+    display: table;
+}/* make it justify*/
+ul
+{
+    list-style: none;
+}
+ul li
+{
+    display: inline-block;
+}
+.leftcol
+{
+  width:340px;
+  margin-left:20px;
+  float:left;
+  top:0;
+  position: sticky;
+  bottom: 0;
+}
+/* for put icon inline block with other option*/
+/* change border of all icon box.*/
+/* ul instead of div*/
+ .social_box {
+ width:320px;
+ margin-top:20px ;
+ padding:10px 0;
+ /* background-color: #92d153;*/  
+  /* scrolling*/
+  border:ridge 1px;
+    background-image:url(../img/content.jpg);
+}
+.social_icon
+{float: left;
+ width:100px;
+  transition: all 0.3s ease;
+  color: white;
+}
+.social_icon:hover
+{
+ background-color:#DAEAE9;
+}
+
+.box_pagecover
+{
+  border:ridge 1px;
+   width:320px;
+   margin-top:30px;
+  float:left;
+}
+.pagecover 
+{
+width:305px;
+  height:230px;
+  margin:5px;
+  float:left;
+  }
+.btn_watch
+{
+
+  position: absolute;
+ margin-top:160px;
+ left:55%;
+ background: #101010;
+  text-align: center;
+  color: white;
+  border-color: blue;
+}
+.btn_watch img{margin:1px 0;}
+.btn_like
+{
+   position: absolute;
+ margin-top:160px;
+ right:65%;
+background: #101010;
+    text-align: center;
+color: white;
+    border-color: blue;
+}
+.btn_like img{margin:1px 0;}
+.btn_watch:hover {
+  background-color:#D8CBCB;
+}
+.btn_like:hover {
+  background-color:#D8CBCB;
+}
+.pageimg
+{position:absolute;
+ margin-top:10px;
+ right:260px;
+ width:60px;
+ height:60px;
+ border:ridge 1px white;
+ }
+.pagename
+{
+  position: absolute;
+  margin-top:35px;
+  right:70px;
+  color: #F77B7B;
+  font-family:fantasy;
+  font-weight:bold;
+  font-size: 20px;
+}
+.pagename:hover {
+  background-color:#FFF;
+}
+/*
+.icon-bar a:hover {
+  background-color: #FF3A3A;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+*/
+.border
+{
+ margin-top:20px;
+ width:320px;
+ height:70px;
+ border:ridge 1px;
+ border-bottom:solid 7px red;
+ float:left;
+}
+.border img{
+ width:320px;
+ height:63px;
+}
+.followme 
+{
+ float:left;
+  margin-top:40px ;
+  margin-bottom:20px;
+ width:320px;
+}
+.followme p
+{
+ float:right;
+    color: #7272D3;
+    font-weight: bold;
+    font-size: 18px;
+}
+.followme img
+{
+ 
+ margin:20px 0 ;
+ margin-left:5px;
+ float:left;
+ width:40px;
+ 
+ 
+}
+.followme .imgborder
+{
+ margin-top:45px;
+ height:70px;
+  border-top:ridge 1px;
+   border-right:ridge 1px;
+ border-left:ridge 1px;
+
+ border-bottom: solid 3px red;
+  
+
+}
+.followme img:hover
+{
+ background-color: #FFFFFF;
+}
+
+@media only screen and (max-width: 800px){
+ .leftcol
+ {
+  display:none;
+ }
+    .content
+    {
+        width:100%;
+        float:none;
+        
+    }
+ .rightcol
+ {
+  float:none;
+  width:100%;
+    
+ }
+    .vn1
+    {
+       width:100%; 
+        
+    }
+    .ivn1
+    {
+        float:none;
+        width:100%;
+    }
+    .vtext
+    {
+        float:none;
+        width:100%;
+        height:600px;
+        
+    }
+    .footer
+    {
+        display: block;
+    }
+ .container
+ {
+  mmargin:0;
+     padding:0;
+  width:auto;
+ }
+
+}
+/*
+ .icon-bar
+{
+  padding-top:0px;
+  padding-bottom: 1px;
+  width: 333px;
+  height:100px;
+  background-color: #FFF;
+  float:left;
+  overflow: auto; /* scrolling
+  margin-left:30px;
+  margin-top:1px;
+  border:ridge 1px;
+}
+/* change icon style. 
+.icon-bar a
+{
+  
+  float: left;
+  width: 150px;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+  border: solid 1px;
+}
+.active {
+  background-color: #4CAF50;
+}
+ */
+.footer
+{
+  background: black;  
+}
+.footer .ti
+
+ {
+  width:auto;
+ margin-top:30px;
+ border-top:double red 10px ;
+}
+.recent_topics
+{
+ margin-top:10px;
+ width:300px;
+ float:right;
+ font-size:16px;
+text-align: right;
+margin-right:65px;
+}
+
+ .ti p{
+  font-size: 19px;
+ font-weight:bold;
+ text-align: right;
+ font-family:fantasy;
+ left:0;
+ color:white;}
+ .follow_us_infacebook
+ {
+   margin-top:10px;
+ }
+.follow_us_infacebook .box_pagecover .pagename
+{
+ margin-right:500px;
+}
+.follow_us_infacebook .box_pagecover .pageimg
+{
+
+ margin-right:540px;
+}
+.follow_us_infacebook .box_pagecover .btn_watch
+{
+left:580px;}
+.follow_us_infacebook .box_pagecover .btn_like
+{
+right:750px;}
+.follow_us_inyoutube
+{
+  margin-top:10px;
+ width:190px;
+ height:300px;
+ float:left;
+ margin-left:40px;
+} 
+.follow_us_inyoutube .subscribe
+{
+ width:180px;
+ height:100px;
+ border:ridge 3px;
+ float:left;
+}
+.sub
+{
+ position:absolute;
+ width:80px;
+ height:80px;
+margin-top:45px;
+ margin-left:0px;
+}
+.pho
+{
+ position:absolute;
+ width:60px;
+ height:50px;
+margin-top:0px;
+ margin-left:0px;
+}
+ .yt
+{
+ position:absolute;
+ width:50px;
+ height:30px;
+margin-top:65px;
+ margin-left:125px;
+}
+.subscribe .name
+{
+position:absolute;
+ width:50px;
+ height:30px;
+margin-top:0px;
+ margin-left:90px;
+ font-weight: bold ;
+ font-size: 13px;
+
+}
+.copyright
+{
+ border-top:ridge 3px ;
+ margin-top:20px;
+ width:100%;
+ height:50px;
+color:white;
+}
+.text1{ margin-right:10px;font-weight: bold;padding:5px 0;text-align:right;float:right;}
+.s
+{
+ float:left;
+}
+.fab{
+ padding:10px 0;
+  font-size: 15px;
+  margin-left:5px;
+  text-align: center;
+  text-decoration: none;
+  color:#DBDBDB;
+}
+.fab:hover
+{
+ opacity: 0.7;
+}
+.fc
+{
+ width:100px;
+ height:100px;
+ background:red;
+}
+#test /* java script*/
+{
+    color:red;
+}
+#h1
+{
+    direction: rtl;
+    width:100%;
+    background: red;
+    font-size: 22px;
+    color:white;
+    padding:5px;
+    text-shadow: 2px 1px black;
+}
+#parg
+{
+    direction: rtl;
+    font-weight:bold;
+    font-family: inherit;
+    line-height: 2;
+    font-size: 18px;
+    text-align: right;
+    color:#364041;
+    padding: 10px;
+    text-indent: 50px;
+    }
+/*
+@media only screen and (max-width: 375px){
+ .leftcol
+ {
+  display:none;
+ }
+    .content
+    {
+        width:100%;
+        float:none;
+        height:2400px;
+        
+    }
+ .rightcol
+ {
+  float:none;
+  width:357px;
+  height:2000px;
+    
+ }
+    .vn1
+    {
+       width:330px; 
+       float:none;
+       margin-bottom:150px;
+        
+    }
+    .ivn1
+    {
+        float:none;
+        width:100%;
+        margin-bottom:10px;
+    }
+    .vtext
+    {
+        float:none;
+        width:100%;
+        height:600px;
+        
+    }
+    .footer 
+    {
+        width:auto;
+        height:900px;
+        float:none;
+    }
+    .follow_us_infacebook,.follow_us_inyoutube
+    {
+      margin-bottom:0px;
+      width:375px;
+      float:none;
+     
+    }
+    .follow_us_inyoutube
+    {
+      m
+    }
+    .copyright
+    {
+      width:auto;
+     border-top:solid;
+     margin:0;
+     heigh:100px;
+}
+
+ .container
+ {
+  mmargin:0;
+     padding:0;
+  width:auto;
+ }
+
+}
+*/
